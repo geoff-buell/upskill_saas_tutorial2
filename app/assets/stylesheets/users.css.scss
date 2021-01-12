@@ -1,7 +1,8 @@
 .avatar-show-img {
   width: 128px;
   height: 128px;
-  border: 1px solid #000;
+  border: 1px solid #46b8da;
+  margin-top: 25px;
   padding: 75px 50px 75px 50px;
 }
 
@@ -14,6 +15,7 @@
   background-color: #337ab7;
   color: #FFF;
   text-align: center;
+  margin-right: 10px;
 }
 
 .well.profile-block {
@@ -31,4 +33,17 @@
 .well.profile-contact-info {
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+
+// User Index Page Styles
+.user-index-avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border: 1px solid #46b8da;
+  padding: 75px 50px 75px 50px;
+}
+
+.well.white-bg {
+  background-color: #FFF;
 }
